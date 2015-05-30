@@ -11,7 +11,7 @@ using namespace std;
 #define BUFSIZE MAX_PATH
 //#define UNICODE 
 #define FILENAME "sdrsharptrunking.log"
-
+// sdrsharptrunking.log can be used with Trunking Recorder
 //#define FILENAME "remote_trunking.log"
 char   FullLogFileName[MAX_PATH] = {0};
 //WCHAR   DllPath[MAX_PATH] = {0};
