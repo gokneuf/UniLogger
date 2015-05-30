@@ -1,17 +1,15 @@
 # UniLogger Multiple DLL Version
-Credit to Dreinhold's Multiple DLL version (https://github.com/dreinhold/UniLogger) and UniLogger 1.2 (http://www.scannerbox.us/TrunkingRecorder/).
-
+Credit to [Dreinhold]'s Multiple DLL version and [UniLogger 1.2].
+###About
 Remote.DLL allows multiple copies of Trunking Recorder to record multiple Voice Receivers in Unitrunker, with only one Unitrunker running.
+###Requires:
+- Might require Visual C++ Redistributable for [Visual Studio 2012 Update 4] to use Remote.DLL, built with Visual Studio 2012 Update 4.
+- [Unitrunker]. Testing using Preview version UniTrunker-1.0.31.13.
+- [Trunking Recorder].
+- Optional:
+ - [DSDPlus] or digital decoder for digital decoding
 
-Built using Visual Stuid 2012 update 4.
-Requires:
-- Might require Visual C++ Redistributable for Visual Studio 2012 Update 4 (https://www.microsoft.com/en-us/download/details.aspx?id=30679).
-- Unitrunker (http://www.unitrunker.com/) . Testing using Preview version UniTrunker-1.0.31.13.
-- Trunking Recorder (http://www.scannerbox.us/TrunkingRecorder/).
-Optional:
-- DSDPlus or digital decoder for digital decoding
-
-Installation:
+###Installation - Detailed
 1. Install and configure Unitrunker
 2. Place Remote.DLL in each Voice Receiver folder in Unitrunker. Voice Receiver folders are identified by RXXXXXXXX. To easily locate the Receiver folder, in Unitrunker click on the Voice Receiver then the folder icon. For example, on Windows 7, that path might be "C:\Users\UserName\AppData\Roaming\Unitrunker\R00000002".
 3. Install Trunking Recorder
@@ -25,3 +23,9 @@ Installation:
 11. Probably a good idea to create new shortcuts to all the different copies of Trunking Scanner and place them on your desktop. Each indiviual copy has to be running and recording for everything to work.
 
 Enjoy!
+[Dreinhold]:https://github.com/dreinhold/UniLogger
+[UniLogger 1.2]:http://www.scannerbox.us/TrunkingRecorder/UniLogger1.2.0.0.zip
+[Trunking Recorder]:http://www.scannerbox.us/TrunkingRecorder/
+[UniTrunker]:http://www.unitrunker.com
+[Visual Studio 2012 Update 4]:https://www.microsoft.com/en-us/download/details.aspx?id=30679
+[DSDPlus]:http://www.dsdplus.com
