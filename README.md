@@ -11,7 +11,7 @@ Remote.DLL allows multiple copies of Trunking Recorder to record multiple Voice 
 
 ###Installation - Detailed
 1. Install and configure Unitrunker
-2. Place Remote.DLL in each Voice Receiver folder in Unitrunker. Voice Receiver folders are identified by RXXXXXXXX. To easily locate the Receiver folder, in Unitrunker click on the Voice Receiver then the folder icon. For example, on Windows 7, that path might be "C:\Users\UserName\AppData\Roaming\Unitrunker\R00000002".
+2. Place Remote.DLL in each Voice Receiver folder in Unitrunker. Voice Receiver folders are identified by RXXXXXXXX. To easily locate the Receiver folder, in Unitrunker click on the Voice Receiver then the folder icon. For example, on Windows 7, that path might be "C:\Users\UserName\AppData\Roaming\Unitrunker\R00000002". Unitrunker should create a "sdrsharptrunking.log" file in each folder contianing a remote.DLL. If it doesn't try restarting a voice reciever or restarting Unitrunker. If that doesn't work, try installing the [Visual Studio 2012 Update 4] runtime executable.
 3. Install Trunking Recorder
 4. Start Trunking Recorder.
 5. Configure first copy of Trunking Recorder per normal, enable Web Server if wanted, select correct Audio line, etc., but change the Unitrunker data folder location to the above Reciever folder. Example "C:\Users\UserName\AppData\Roaming\Unitrunker\R00000002". Leave Data output folder the same or change to your liking, but use this same path for ALL copies on Trunking Recorder!
